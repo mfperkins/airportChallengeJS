@@ -1,7 +1,7 @@
 'use strict';
+
 describe('Airplane', function(){
   var airplane;
-
 
   beforeEach(function(){
     airplane = new Airplane();

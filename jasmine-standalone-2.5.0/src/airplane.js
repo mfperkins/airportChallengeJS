@@ -1,15 +1,15 @@
 function Airplane () {
-this.flying = false;
+  this.flying = false;
 };
 
 Airplane.prototype = {
 
-takeOff: function() {
-  this.flying = true;
-},
+  takeOff: function() {
+    this.flying = true;
+  },
 
-landing: function() {
-  this.flying = false;
-},
+  landing: function() {
+    this.flying = false;
+  },
 
 };
