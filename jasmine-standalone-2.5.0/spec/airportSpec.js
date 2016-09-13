@@ -1,11 +1,11 @@
 'use strict';
 describe('Airport', function(){
-  // var airplane;
+  // var plane;
   var airport;
 
       beforeEach(function(){
         airport = new Airport();
-        // airplane = new Airplane();
+        // plane = new Plane();
       });
 
       it('has no planes initially', function(){
